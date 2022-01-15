@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+4th Year Biology Student. Looking towards Specialization in Computing. I do research with plants.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Wanna be a plant hacker, but I have no idea what that means. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ianmorris13@g.ucla.com](mailto:ianmorris13@g.ucla.com)

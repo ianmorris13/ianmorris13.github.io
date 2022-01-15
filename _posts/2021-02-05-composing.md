@@ -85,11 +85,15 @@ In cases in which your code produces an image, you should save the image (such a
 ```
 For example, here's how to show code along with the plot that it generates. 
 ```python
+import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib import pyplot as plt
+#so i can see in dark mode
+plt.style.use(['dark_background'])
 x = np.linspace(0, 2*np.pi, 1001)
 y = np.sin(x)
 plt.plot(x, y)
+#so i can see in dark mode
+plt.suptitle('figure title', color='w')
 ```
 ![image-example.png]({{ site.baseurl }}/images/image-example.png)
 

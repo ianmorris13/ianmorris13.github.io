@@ -7,6 +7,10 @@
 
 @import "reset";
 @import "variables";
+@font-face {
+  font-family: eo;
+  src: url(fonts/earthorbiter.ttf);
+}
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,10 +22,9 @@ html {
 }
 
 body {
-  background: $white;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Lato', sans-serif;
-  color: $darkGray;
+  background: #0f0721;
+  font-family: 'Courier', sans-serif;
+  color: #f0ead6;
   line-height: 1.5;
   font-size: large;
 }
@@ -34,8 +37,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-  color: $darkerGray;
+  font-family: eo, sans-serif;
+  text-align: center;
+  color: #00ffff;
   font-weight: bold;
 
   line-height: 1.5;
@@ -48,9 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   a {
-    color: inherit;
+    font-family: eo, sans-serif;
+    color: #00ffff;
   }
 }
 
@@ -64,7 +69,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #ff00ff;
 }
 
 p {
@@ -72,7 +77,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #ff00ff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -158,6 +163,7 @@ img {
 }
 
 .masthead {
+  
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
 
@@ -205,7 +211,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #ff00ff;
   font-size: 16px;
 
   @include mobile {
@@ -227,8 +233,9 @@ nav {
   }
 
   a {
+    font-family: eo, sans-serif;
     margin-left: 20px;
-    color: $darkGray;
+    color: #ff00ff;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -270,15 +277,13 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
@@ -334,3 +339,8 @@ background: #b8d1f3;
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+pre.highlight {
+  background-color: #0f0721;
+  border: 1px solid $lightGray;
+}
