@@ -9,3 +9,5 @@ Gemfile.lock
 node_modules
 package.json
 .jekyll-cache*
+_jupyter/blog_1_dir/temps.csv
+_jupyter/blog_1_dir/NOAA.db
