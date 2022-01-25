@@ -11,3 +11,5 @@ package.json
 .jekyll-cache*
 _jupyter/blog_1_dir/temps.csv
 _jupyter/blog_1_dir/NOAA.db
+_jupyter/blog_1_dir/.ipynb_checkpoints/blog_1-checkpoint.ipynb
+_jupyter/blog_1_dir/blog_1.ipynb
