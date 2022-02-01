@@ -128,54 +128,51 @@ def view():
 ## HTML Template
 Below I will show an example of the HTML templates I referenced to in the functions explination. I will comment line by line the importance of each code.
 
+<!----
+    #extends 'base.html' allows you to import another html file 
+    #this is useful since the template for base.html was used in multiple html files
+    {% extends 'base.html' %}
 
-```python
-#extends 'base.html' allows you to import another html file 
-#this is useful since the template for base.html was used in multiple html files
-{% extends 'base.html' %}
+    #block gives you a way to divide code into coherent groupings
+    {% block header %}
+    <h1>{% block title %}Some Cool Messages{% endblock %}</h1>
+    {% endblock %}
 
-#block gives you a way to divide code into coherent groupings
-{% block header %}
-  <h1>{% block title %}Some Cool Messages{% endblock %}</h1>
-{% endblock %}
+    {% block content %}
 
-{% block content %}
-
-#the if jinja operator allows for variables to be passed in from the functions that are
-#beneath the @app.route as long as the function is under the path
-{% if error %} 
-#this code says that if an error exists, then print this statement and end
-<br>
-Uhhh idk what happened but an error occured sorry idk why.
-{% endif %}
-
-{% if mssg %}
-#this code says if the variable mssg exists...
+    #the if jinja operator allows for variables to be passed in from the functions that are
+    #beneath the @app.route as long as the function is under the path
+    {% if error %} 
+    #this code says that if an error exists, then print this statement and end
     <br>
-    #loop through each element
-    {% for m in mssg %}
-    #this section has id 'quote' to make it easy to read in CSS
-    <section id="quote">
-    #this will print the 0th element of the m element of mssg
-        "{{m[0]}}"
-    </section>
-    #same as above
-    <section id ="author">
-        - {{m[1]}}<br>
-    </section>
-    <br>
-    {% endfor %}
+    Uhhh idk what happened but an error occured sorry idk why.
+    {% endif %}
 
-# I added this just if there was no mssg yet uploaded in the database
-# there will be a small message letting you know.
-{% else %}
-    I'm sorry, it seems there have been no messages submitted. 
-    You can start by clicking submit a message.
-{% endif %}
-{% endblock %}
+    {% if mssg %}
+    #this code says if the variable mssg exists...
+        <br>
+        #loop through each element
+        {% for m in mssg %}
+        #this section has id 'quote' to make it easy to read in CSS
+        <section id="quote">
+        #this will print the 0th element of the m element of mssg
+            "{{m[0]}}"
+        </section>
+        #same as above
+        <section id ="author">
+            - {{m[1]}}<br>
+        </section>
+        <br>
+        {% endfor %}
 
-```
-
+    # I added this just if there was no mssg yet uploaded in the database
+    # there will be a small message letting you know.
+    {% else %}
+        I'm sorry, it seems there have been no messages submitted. 
+        You can start by clicking submit a message.
+    {% endif %}
+    {% endblock %}
+--->
 These HTML templates make it easy to compile websites, especially when extending, as it provides ways to quickly keep a website uniform. The Jinja syntax also makes passing varibles easy to ajust websites as new imformation is presented.
 
 ## Screencaps
