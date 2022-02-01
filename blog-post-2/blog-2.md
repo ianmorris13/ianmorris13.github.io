@@ -180,8 +180,8 @@ These HTML templates make it easy to compile websites, especially when extending
 
 ## Screencaps
 
-![Screencap 1](/static/images/scrnshtOne.png "Screencap 1")
-![Screencap 2](/static/images/scrnshtTwo.png "Screencap 2")
+![Screencap 1](./app/static/images/scrnshtOne.png "Screencap 1")
+![Screencap 2](./app/static/images/scrnshtTwo.png "Screencap 2")
 
-## Link
-
+## Repository Link
+https://github.com/ianmorris13/ianmorris13.github.io/tree/master/blog-post-2
