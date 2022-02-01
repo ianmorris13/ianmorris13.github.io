@@ -127,7 +127,7 @@ def view():
 
 ## HTML Template
 
-![htmlTemplateComments.png](\images\htmlTemplateComments.png)
+![htmlTemplateComments.png]("\images\htmlTemplateComments.png")
 
 These HTML templates make it easy to compile websites, especially when extending, as it provides ways to quickly keep a website uniform. The Jinja syntax also makes passing varibles easy to ajust websites as new imformation is presented.
 
