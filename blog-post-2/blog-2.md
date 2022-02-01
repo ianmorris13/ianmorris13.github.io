@@ -126,10 +126,10 @@ def view():
 ```
 
 ## HTML Template
-Below I will show an example of the HTML templates I referenced to in the functions explination. I will comment line by line the importance of each code.
+Below I will show an example of the HTML templates I referenced to in the functions explanation. I will comment line by line the importance of each code.
 
-#extends 'base.html' allows you to import another html file 
-#this is useful since the template for base.html was used in multiple html files
+#extends 'base.html' allows you to import another html file\n
+#this is useful since the template for base.html was used in multiple html files\n
 {% extends 'base.html' %}
 
 #block gives you a way to divide code into coherent groupings
