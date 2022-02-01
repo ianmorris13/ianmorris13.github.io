@@ -176,8 +176,8 @@ These HTML templates make it easy to compile websites, especially when extending
 
 ## Screencaps
 
-![scrnshtOne.png](blog-post-2/static/images/scrnshtOne.png)
-![scrnshtTwo.png](blog-post-2/static/images/scrnshtTwo.png)
+![scrnshtOne.png](images/scrnshtOne.png)
+![scrnshtTwo.png](images/scrnshtTwo.png)
 
 ## Repository Link
 https://github.com/ianmorris13/ianmorris13.github.io/tree/master/blog-post-2
