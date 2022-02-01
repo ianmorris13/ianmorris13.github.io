@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Some Cool Messages{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+{% if error %}
+<br>
+Uhhh idk what happened but an error occured sorry idk why.
+{% endif %}
+
+{% if mssg %}
+    <br>    
+    {% for m in mssg %}
+    <section id="quote">
+        "{{m[0]}}"
+    </section>
+    <section id ="author">
+        - {{m[1]}}<br>
+    </section>
+    <br>
+    {% endfor %}
+
+{% else %}
+    I'm sorry, it seems there have been no messages submitted. 
+    You can start by clicking submit a message.
+{% endif %}
+{% endblock %}

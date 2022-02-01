@@ -1,0 +1,16 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - Blog Post: Web Development</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+  <h1>A Simple Message Bank</h1>
+  <!-- <b>Navigation:</b> -->
+    <a href="{{ url_for('submit') }}" id = sub>Submit a Message</a>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <a href="{{ url_for('view')}}" id = vew>View Messages</a>
+</nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% block content %}{% endblock %}
+</section>

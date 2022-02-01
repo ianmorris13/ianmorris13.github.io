@@ -1,0 +1,85 @@
+
+@font-face{
+    font-family: scpI;
+    src: url(fonts/scpI.ttf)
+}
+
+@font-face{
+    font-family: cmR;
+    src: url(fonts/cmR.ttf)
+}
+html {
+    text-align: center;
+    font-family: cmR, Roboto monospace;
+    background: url(images/starrynite.jpeg);
+    padding: 1rem;
+    font-size: large;
+}
+
+body {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(206, 206, 206);
+    margin: 1rem 0;
+    text-align: center;
+}
+
+a {
+    color: CornflowerBlue;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+nav ul  {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem;
+}
+
+.content {
+    padding: 0 1rem 1rem;
+    font-size: x-large;
+    background: rgba(255, 255, 255, 0.438);
+    font-weight: bold;
+}
+
+.content h1{
+    color: rgb(0, 0, 0);
+}
+
+.flash {
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em;
+    background: #cae6f6;
+    border: 1px solid #377ba8;
+}
+
+#quote{
+    opacity: 100%;
+    font-size: x-large;
+    font-family: scpI, sans-serif;
+}
+
+#author{
+    opacity: 100%;
+    text-align: right;
+    margin-right: 30%;
+    font-size: x-large;
+    font-weight: bolder;
+}

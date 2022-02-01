@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Submit{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post" enctype="multipart/form-data">
+      <label for="mess">Your Message:</label><br>
+      <input type="text" name="mess" id="mess"><br>
+      <label for="user">Your Name/Handle:</label><br>
+      <input type="text" name="user" id="user"><br>
+      <input type="submit" value="Submit form"><br>
+  </form>
+
+  {% if thanks %}
+  <br>
+    Thanks for submitting a message!
+  {% endif %}
+
+  {% if error %}
+  <br>
+  Uhhh idk what happened but an error occured sorry idk why.
+  {% endif %}
+
+  {% if work %}
+  <br>
+  it works : {{work}}
+  {% endif %}
+
+{% endblock %}
