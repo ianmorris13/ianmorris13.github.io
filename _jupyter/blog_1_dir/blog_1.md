@@ -725,9 +725,9 @@ fig = temperature_coefficient_plot("India", 1980, 2020, 1,
 
 fig.show()
 
+```
 
 {% include temperature_coefficient_plot.html %}
-```
 
 Look at that! Our own interactive map!!
 
