@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-4th Year Biology Student. Looking towards Specialization in Computing. I do research with plants.
+4th Year Biology Student. Looking towards Specialization in Computing. I research plants.
 
 ### More Information
 
-Wanna be a plant hacker, but I have no idea what that means. 
+Aspiring to find the intersection between programming and ecology.
 
 ### Contact me
 
