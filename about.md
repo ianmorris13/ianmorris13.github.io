@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-4th Year Biology Student. Looking towards Specialization in Computing. I research plants.
+This website hosts blog posts detailing python exercises done as an undergraduate in 2022. Enjoy.
 
 ### More Information
 
@@ -12,4 +12,4 @@ Aspiring to find the intersection between programming and ecology.
 
 ### Contact me
 
-[ianmorris13@g.ucla.com](mailto:ianmorris13@g.ucla.com)
+[imsibaja@proton.me](mailto:imsibaja@proton.me)
